@@ -1,0 +1,39 @@
+[
+{
+        "CATEGORY": "relationship", 
+        "IN_VERTEX_DATA": {
+            "APP_MW": "No", 
+            "APP_NAME": "Exchange - CAS", 
+            "APP_PURPOSE": "The client access server (CAS) is a server role that handles all client connections to Exchange Server 2010 and Exchange 2013 ", 
+            "CLUSTER_ID": 10, 
+            "INPUT_KEY": "47"
+        }, 
+        "IN_VERTEX_TYPE": "application", 
+        "OUT_VERTEX_DATA": {
+            "APP_NAME": "ProofPoint", 
+            "APP_PURPOSE": "Proofpoint Email DLP simplifies data loss prevention by giving you complete visibility and control of email leaving your enterprise , Proofpoint Email Protection stops malware and non-malware threats such as impostor email (also known as email fraud). Deployed as a cloud service or on-premises, it provides granular filtering to control bulk \"graymail\" and other unwanted email ", 
+            "CLUSTER_ID": 10, 
+            "INPUT_KEY": "80"
+        }, 
+        "OUT_VERTEX_TYPE": "application", 
+        "RELATIONSHIP_TYPE": "Application depends on Application"
+    }, 
+    {
+        "CATEGORY": "relationship", 
+        "IN_VERTEX_DATA": {
+            "APP_MW": "No", 
+            "APP_NAME": "Exchange", 
+            "CLUSTER_ID": 10, 
+            "INPUT_KEY": "50"
+        }, 
+        "IN_VERTEX_TYPE": "application", 
+        "OUT_VERTEX_DATA": {
+            "APP_NAME": "ProofPoint", 
+            "APP_PURPOSE": "Proofpoint Email DLP simplifies data loss prevention by giving you complete visibility and control of email leaving your enterprise , Proofpoint Email Protection stops malware and non-malware threats such as impostor email (also known as email fraud). Deployed as a cloud service or on-premises, it provides granular filtering to control bulk \"graymail\" and other unwanted email ", 
+            "CLUSTER_ID": 10, 
+            "INPUT_KEY": "80"
+        }, 
+        "OUT_VERTEX_TYPE": "application", 
+        "RELATIONSHIP_TYPE": "Application depends on Application"
+    }
+]
